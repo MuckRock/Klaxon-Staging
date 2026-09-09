@@ -285,7 +285,7 @@ class Klaxon(AddOn):
     def main(self):
         # pylint:disable=attribute-defined-outside-init
         """Gets the site and selector from the Add-On run, checks  calls monitor"""
-        self.client.session.headers.update({"User-Agent": "Klaxon Add-On"})
+        self.client.session.headers.update({"User-Agent": "Klaxon Staging Add-On"})
         # Gets the site and selector from the front-end yaml
         site = self.data.get("site")
         selector = self.data.get("selector")
