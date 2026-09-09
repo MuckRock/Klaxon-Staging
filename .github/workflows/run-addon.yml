@@ -10,3 +10,4 @@ jobs:
     secrets: 
      token: ${{ secrets.SAVEPAGENOW_SECRET_KEY }}
      key: ${{ secrets.SAVEPAGENOW_ACCESS_KEY }}
+     wg_config: ${{ secrets.WG_CONFIG }}
