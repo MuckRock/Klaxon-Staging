@@ -46,5 +46,5 @@ eventOptions:
     - hourly
     - daily
     - weekly
-
+version: 2
 
